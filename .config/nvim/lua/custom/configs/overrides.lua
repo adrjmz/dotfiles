@@ -4,25 +4,25 @@ local M = {}
 -- Also see https://github.com/nvim-treesitter/nvim-treesitter#supported-languages
 M.treesitter = {
   ensure_installed = {
-    -- defaults
+    -- defaults 
     "vim",
     "lua",
 
-    -- web dev stuff
+    -- web dev stuff 
     "html",
     "css",
     "javascript",
     "typescript",
     "tsx",
-    "json",
+    -- "json",
     "svelte",
-    -- "scss",
-    -- "prisma",
-    -- "graphql",
+    "scss",
+    "prisma",
+    "graphql",
     -- "php",
     -- "ruby",
 
-    -- backend stuff
+    -- backend stuff 
     -- "rust",
     -- "go",
     -- "java",
@@ -30,12 +30,12 @@ M.treesitter = {
     "python",
     "sql",
 
-    -- c/cpp stuff
+    -- c/cpp stuff 
     "c",
     "cpp",
     "cmake",
 
-    -- other stuff
+    -- other stuff 
     -- "fish", -- only for macos
     -- "yaml",
     -- "dockerfile",
@@ -58,29 +58,26 @@ M.treesitter = {
 
 M.mason = {
   ensure_installed = {
-    -- LUA STUFF
+    -- LUA STUFF 
     "lua-language-server",
     "stylua",
     "vim-language-server",
 
-    -- WEB DEV STUFF
+    -- WEB DEV STUFF 
     "css-lsp",
-    -- "cssmodules-language-server",
+    "cssmodules-language-server",
     "html-lsp",
     "typescript-language-server",
-    -- "tsserver",
     "js-debug-adapter",
     "json-lsp",
-    "deno",
-    "prettier",
+    -- "deno",
     "prettierd",
-    "eslint",
+    "eslint-lsp",
     "svelte-language-server",
     "tailwindcss-language-server",
     -- "stylelint",
     -- "stylelint_lsp",
-    -- "graphql",
-    -- "prisma-language-server",
+    "prisma-language-server",
     -- PHP4
       -- "php-debug-adapter",
       -- "phpactor",
@@ -110,16 +107,16 @@ M.mason = {
     -- SQL2
       -- "sqls",
     
-    -- C/CPP STUFF
+    -- C/CPP STUFF 
     "clangd",
-    "clang-format",
+    -- "clang-format", -- needs python
 
-    -- OTHER STUFF
+    -- OTHER STUFF 
     -- "docker-compose-language-service",
     -- "dockerfile-language-server",
     -- "editorconfig-checker",
     "gh",
-    "gitlint",
+    -- "gitlint", -- needs python
     -- "gitui",
     "markdownlint"
     -- "yaml-language-server",

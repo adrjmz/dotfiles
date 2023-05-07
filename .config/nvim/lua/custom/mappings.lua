@@ -14,7 +14,8 @@ M.general = {
     ["<C-a>"] = {"gg<S-v>G", "Select All"};
     ["dw"] = {"dvb", "Delete Word Backwards"};
     [";"] = { ":", "enter command mode", opts = { nowait = true }};
-    ["<leader>ts"] = {"<CMD> :Telescope keymaps <CR>", "Telescope show keymaps"};
+    ["<leader>ts"] = {"<CMD>:Telescope keymaps <CR>", "Telescope show keymaps"};
+    ["<leader>fm"] = {"<CMD>vim.lsp.buf.format() <CR>","Format File"};
   },
 
   -- mappings for insert mode
